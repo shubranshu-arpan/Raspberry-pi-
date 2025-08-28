@@ -1,0 +1,5 @@
+#include <EloquentTinyML.h>
+#define INPUTS 128
+#define OUTPUTS 2
+#define TENSOR_ARENA_SIZE 8*1024
+Eloquent::TinyML::TfLite<INPUTS, OUTPUTS, TENSOR_ARENA_SIZE> ml;
